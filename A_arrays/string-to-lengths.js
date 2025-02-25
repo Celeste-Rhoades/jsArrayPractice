@@ -2,7 +2,7 @@
 // should return a new array containing the lengths of the elements of the original array.
 function stringsToLengths(arr) {
   for (let i = 0; i < arr.length; i++) {
-    return arr.length[i];
+    return 
   }
 }
 console.log(stringsToLengths(["belly", "echo", "irony", "pickled"]));
