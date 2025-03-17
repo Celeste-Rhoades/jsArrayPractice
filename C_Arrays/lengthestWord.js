@@ -3,9 +3,9 @@
 // in the sentence.
 function lengthiestWord(sentence) {
   let words = sentence.split(" ");
-  let longest = "";
+  let longest = words[0];
 
-  for (let i = 0; i < words.length; i++) {
+  for (let i = 1; i < words.length; i++) {
     let word = words[i];
 
     if (longest.length <= word.length) {
