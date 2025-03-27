@@ -2,13 +2,11 @@
 // all positive even numbers that are less than the max.
 
 function evens(max) {
-  let num = 0;
-  for (let i = 0; i <= max; i++) {
-    if (max[i] % 2 === 0) {
-      num += max[i];
+  for (let i = 1; i < max; i++) {
+    if (i % 2 === 0) {
+      console.log(i);
     }
   }
-  console.log(num);
 }
 
 evens(11);
