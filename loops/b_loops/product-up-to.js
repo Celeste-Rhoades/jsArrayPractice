@@ -4,6 +4,14 @@
 //
 // For example, productUpTo(4) should return 24 because 1 * 2 * 3 * 4 = 24
 
+function productUpTo(max) {
+  let num = 1;
+  for (let i = 1; i <= max; i++) {
+    num *= i;
+  }
+  return num;
+}
+
 console.log(productUpTo(4)); // 24
 console.log(productUpTo(5)); // 120
 console.log(productUpTo(7)); // 5040
